@@ -13,14 +13,12 @@
   <input type="number" id="tankpreis" step="0.01" />
 
   <label for="strecke">Strecke (km)</label>
-  <input type="number" id="strecke" />
+  <input type="number" id="strecke" step="1"/>
 
   <label for="verbrauch">Auto auswählen (Verbrauch in L/100km)</label>
   <select id="verbrauch">
     <option value="5.0">Skoda Fabia – 5,0 L/100km</option>
     <option value="6.5">VW Golf – 6,5 L/100km</option>
-    <option value="7.2">BMW 3er – 7,2 L/100km</option>
-    <option value="4.2">Toyota Yaris – 4,2 L/100km</option>
   </select>
 
   <button onclick="berechnen()">Berechnen</button>
